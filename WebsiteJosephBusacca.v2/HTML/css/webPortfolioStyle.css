@@ -1,0 +1,264 @@
+/* COLOR PALLETE
+select your set of colors and establish them here so it is easy to reuse them and stays consistent
+
+COLORS: 
+    #2b6777; - teal
+    #c8d8e4; - grey/blue
+    #ffffff; - white
+    #f2f2f2; - grey
+    #52ab98; - aqua
+
+
+Color Set Option 2:
+    #687864 - olive green
+    #31708E - blue
+    #5085A5 - grey/blue
+    #8FC1E3 - light blue
+    #F7F9FB - white
+
+
+
+    #708090 - slategrey
+=========================*/
+
+
+
+/* GLOBAL STYLES - used for the entire site 
+=========================*/
+
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #8FC1E3;
+    color: #F7F9FB;
+    margin: 0;
+    padding: 0;
+    /* font family: ...; 
+    font-size: ...; */
+    text-align: center;
+}
+
+
+/* color of any hyperlinks */
+a {
+    color: #F7F9FB;
+}
+
+/* text decoration none, removes the underline while hovering over the links*/
+a:hover {
+    text-decoration: none;
+}
+
+
+/* ABOUT-PROFILE - styles the about/profile section
+=========================*/
+header {
+    margin: 0;
+    padding-top: 20px;
+    background-image: url(../Images/IMG-7189.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #000000;
+    text-align: center;
+    line-height: 2;
+}
+
+.profile h1 {
+    padding-top: 200px;
+    color: #F7F9FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile ul {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #708090;
+    border: 0;
+    border-radius: 0px;
+    margin-bottom: 0;
+   
+   /* text-align: left;
+    color: #000000;
+    list-style-type: none;
+    position: fixed;
+    padding-left: 0px;
+    padding-bottom: 200px;
+    margin: 0; - this is navbar on the left */
+}
+
+.profile li {
+    display: inline-block;
+    padding: 15px;
+    color: #000000;
+}
+
+
+/* ABOUT ME - styles about me section 
+=========================*/
+
+.aboutMe {
+    background: #FFEFD5;
+    color: #000000;
+    padding: 20px;
+}
+
+.aboutMe h2 {
+    color: #000000;
+}
+
+.abtPar {
+    justify-content: left;
+    padding-left: 75px;
+}
+
+.AbtImages{
+    display: flex;
+    flex-direction: row;
+}
+
+.AbtImagesMe {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+    transition: transform .2s;
+    margin-left: 125px;
+}
+
+.AbtImagesMe:Hover {
+    transform: scale(2.5);
+}
+
+.AbtImagesRes {
+    display: flex; 
+    flex-direction: column;
+    justify-content: right;
+    height: 300px;
+    width: 200px;
+    transition: transform .2s;
+    margin-left: 150px;
+}
+
+.AbtImagesRes:Hover {
+    transform: scale(2.5);
+}
+
+/*
+
+.me {
+    height: 200px;
+    width: 150px;
+    transition: transform .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.me:hover {
+    transform: scale(2.5);
+}
+
+.resume {
+    height: 200px;
+    width: 200px;
+    transition: transform .2s;
+    margin-right: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+
+.resume:hover {
+    transform: scale(2.5);
+}
+
+*/
+
+/* EDUCATION & CERTIFICATIONS - styles education section
+=========================*/
+
+.education {
+    background: #8FC1E3;
+    color: #000000;
+}
+
+.education h2 {
+    text-align: left;
+    padding-left: 175px;
+}
+
+.education h3 {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.education h4 {
+    text-align: left;
+    padding-left: 225px;
+}
+
+.education p {
+    text-align: left;
+    padding-left: 250px;
+}
+
+.education ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 250px;
+}
+
+/* PROJECTS / PORTFOLIO - styles projects section
+=========================*/
+
+.projects {
+    background: #5085A5;
+    padding: 20px;
+}
+
+.projects h2 {
+    text-align: left;
+    padding-left: 175px;
+}
+
+.projects h3 {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.projects p {
+    text-align: left;
+    padding-left: 250px;
+}
+
+/* CONTACT INFO & SOCIAL MEDIA - styles contact info section (footer)
+=========================*/
+.contact-info {
+    background: #687864;
+    padding: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info li {
+    display: inline-block;
+    padding: 15px;
+}
